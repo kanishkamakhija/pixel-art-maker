@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+div {
+    display: flex;
+}
+.pixel{
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+}
+
+.canvas{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.rowDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.colorPickerDiv {
+    height: 50px;
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+}
+.colorPicker {
+    width: 33.33%;
+    height: 100%;
+}
